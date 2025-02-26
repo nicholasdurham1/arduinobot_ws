@@ -1,0 +1,33 @@
+[0.764s] Invoking command in '/home/nadurham/arduinobot_ws/src/arduinobot_py_examples': PYTHONPATH=/home/nadurham/arduinobot_ws/src/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nadurham/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/arduinobot_py_examples build --build-base /home/nadurham/arduinobot_ws/src/build/arduinobot_py_examples/build install --record /home/nadurham/arduinobot_ws/src/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[0.968s] running egg_info
+[0.969s] creating ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info
+[0.970s] writing ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[0.970s] writing dependency_links to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[0.970s] writing entry points to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[0.970s] writing requirements to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[0.971s] writing top-level names to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[0.971s] writing manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.972s] reading manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.973s] writing manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.973s] running build
+[0.973s] running build_py
+[0.974s] creating /home/nadurham/arduinobot_ws/src/build/arduinobot_py_examples/build
+[0.974s] creating /home/nadurham/arduinobot_ws/src/build/arduinobot_py_examples/build/lib
+[0.974s] creating /home/nadurham/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[0.974s] copying arduinobot_py_examples/__init__.py -> /home/nadurham/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[0.974s] running install
+[0.975s] running install_lib
+[0.976s] creating /home/nadurham/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[0.976s] copying /home/nadurham/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/__init__.py -> /home/nadurham/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[0.976s] byte-compiling /home/nadurham/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__init__.py to __init__.cpython-310.pyc
+[0.977s] running install_data
+[0.977s] creating /home/nadurham/arduinobot_ws/src/install/arduinobot_py_examples/share/ament_index
+[0.977s] creating /home/nadurham/arduinobot_ws/src/install/arduinobot_py_examples/share/ament_index/resource_index
+[0.977s] creating /home/nadurham/arduinobot_ws/src/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[0.977s] copying resource/arduinobot_py_examples -> /home/nadurham/arduinobot_ws/src/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[0.977s] copying package.xml -> /home/nadurham/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples
+[0.978s] running install_egg_info
+[0.980s] Copying ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/nadurham/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info
+[0.980s] running install_scripts
+[0.995s] writing list of installed files to '/home/nadurham/arduinobot_ws/src/build/arduinobot_py_examples/install.log'
+[1.020s] Invoked command in '/home/nadurham/arduinobot_ws/src/arduinobot_py_examples' returned '0': PYTHONPATH=/home/nadurham/arduinobot_ws/src/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nadurham/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/arduinobot_py_examples build --build-base /home/nadurham/arduinobot_ws/src/build/arduinobot_py_examples/build install --record /home/nadurham/arduinobot_ws/src/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
