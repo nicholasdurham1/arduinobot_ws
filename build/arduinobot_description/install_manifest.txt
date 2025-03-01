@@ -1,3 +1,4 @@
+/home/nadurham/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
 /home/nadurham/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
 /home/nadurham/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
 /home/nadurham/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
