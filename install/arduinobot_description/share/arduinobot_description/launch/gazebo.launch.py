@@ -14,59 +14,80 @@ from launch_ros.parameter_descriptions import ParameterValue
 def generate_launch_description():
     arduinobot_description = get_package_share_directory("arduinobot_description")
 
-    model_arg = DeclareLaunchArgument(name="model", default_value=os.path.join(
-                                        arduinobot_description, "urdf", "arduinobot.urdf.xacro"
-                                        ),
-                                      description="Absolute path to robot urdf file"
+    model_arg = DeclareLaunchArgument(
+        name="model",
+        default_value=os.path.join(arduinobot_description, "urdf", "arduinobot.urdf.xacro"),
+        description="Absolute path to robot urdf file"
     )
 
+    # Set environment variables for VMware and Gazebo compatibility
     gazebo_resource_path = SetEnvironmentVariable(
         name="GZ_SIM_RESOURCE_PATH",
-        value=[
-            str(Path(arduinobot_description).parent.resolve())
-            ]
-        )
-    
+        value=[str(Path(arduinobot_description).parent.resolve())]
+    )
+    qt_platform = SetEnvironmentVariable(
+        name="QT_QPA_PLATFORM",
+        value="xcb"
+    )
+    svga_vgpu10 = SetEnvironmentVariable(
+        name="SVGA_VGPU10",
+        value="0"
+    )
+    gz_log_level = SetEnvironmentVariable(
+        name="GZ_LOG_LEVEL",
+        value="debug"
+    )
+    qt_logging_rules = SetEnvironmentVariable(
+        name="QT_LOGGING_RULES",
+        value="qt5ct.debug=true;qml.debug=true"
+    )
+
     ros_distro = os.environ["ROS_DISTRO"]
 
-    robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")]),
-                                       value_type=str)
+    robot_description = ParameterValue(
+        Command(["xacro ", LaunchConfiguration("model")]),
+        value_type=str
+    )
 
     robot_state_publisher_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
-        parameters=[{"robot_description": robot_description,
-                     "use_sim_time": True}]
+        parameters=[{"robot_description": robot_description, "use_sim_time": True}]
     )
 
+    # Launch Gazebo with Ogre 1 rendering engine
     gazebo = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
-                    get_package_share_directory("ros_gz_sim"), "launch"), "/gz_sim.launch.py"]),
-                launch_arguments=[
-                    ("gz_args", [" -v 4 -r empty.sdf "]
-                    )
-                ]
-             )
+        PythonLaunchDescriptionSource([
+            os.path.join(get_package_share_directory("ros_gz_sim"), "launch"),
+            "/gz_sim.launch.py"
+        ]),
+        launch_arguments=[
+            ("gz_args", [" -v 4 -r empty.sdf --render-engine ogre"])
+        ]
+    )
 
     gz_spawn_entity = Node(
         package="ros_gz_sim",
         executable="create",
         output="screen",
-        arguments=["-topic", "robot_description",
-                   "-name", "arduinobot"],
+        arguments=["-topic", "robot_description", "-name", "arduinobot"],
     )
 
     gz_ros2_bridge = Node(
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=[
-            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
+            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock]",
         ]
     )
 
     return LaunchDescription([
         model_arg,
         gazebo_resource_path,
+        qt_platform,
+        svga_vgpu10,
+        gz_log_level,
+        qt_logging_rules,
         robot_state_publisher_node,
         gazebo,
         gz_spawn_entity,
