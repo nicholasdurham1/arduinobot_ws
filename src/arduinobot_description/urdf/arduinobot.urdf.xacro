@@ -4,6 +4,13 @@
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arduinobot">
 
+
+    <xacro:arg name="is_ignition" default="true"/>
+
+    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_gazebo.xacro" />
+    <!--   -->
+    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_ros2_control.xacro" /> 
+
     <xacro:property name="PI" value="3.14159"/>
     <xacro:property name="effort" value="30.0"/>
     <xacro:property name="velocity" value="10.0"/>
@@ -19,12 +26,14 @@
     </xacro:macro>
 
 
-
     <link name="world"/>
 
     <link name="base_link">
         <xacro:default_inertial mass="1.0"/> 
         <visual>
+            <material name="red">
+                <color rgba="1.0 0.0 0.0 1.0" />
+            </material>
         <origin rpy="0 0 0" xyz="-0.5 -0.5 0" />
             <geometry>
                 <mesh filename="package://arduinobot_description/meshes/basement.STL" scale="0.01 0.01 0.01" />
@@ -47,6 +56,9 @@
     <link name="base_plate">
         <xacro:default_inertial mass="0.1"/> 
         <visual>
+            <material name="red">
+                <color rgba="1.0 0.0 0.0 1.0" />
+            </material>
             <origin rpy="0 0 0" xyz="-0.39 -0.39 -0.56"/>
             <geometry>
               <mesh filename="package://arduinobot_description/meshes/base_plate.STL" scale="0.01 0.01 0.01"/> 
@@ -71,6 +83,9 @@
     <link name="forward_drive_arm">
         <xacro:default_inertial mass="0.1"/> 
         <visual>
+            <material name="red">
+                <color rgba="1.0 0.0 0.0 1.0" />
+            </material>
             <origin rpy="0 -${PI/2} ${PI/2}" xyz="0.19 0.06 -0.08" />
             <geometry>
                 <mesh filename="package://arduinobot_description/meshes/forward_drive_arm.STL" scale="0.01 0.01 0.01"/>
@@ -96,6 +111,9 @@
     <link name="horizontal_arm">
         <xacro:default_inertial mass="0.1"/> 
         <visual>
+            <material name="red">
+                <color rgba="1.0 0.0 0.0 1.0" />
+            </material>
         <origin rpy="${PI/2} 0 ${PI/2}" xyz="-0.03 -0.4 -0.06"/>
             <geometry>
                 <mesh filename="package://arduinobot_description/meshes/horizontal_arm.STL" scale="0.01 0.01 0.01"/>
@@ -121,6 +139,9 @@
     <link name="claw_support" >
         <xacro:default_inertial mass="0.01"/> 
         <visual>
+            <material name="red">
+                <color rgba="1.0 0.0 0.0 1.0" />
+            </material>
             <origin rpy="0 0 ${PI/2}" xyz="0 -0.05 -0.15" />
             <geometry>
                 <mesh filename="package://arduinobot_description/meshes/claw_support.STL" scale="0.01 0.01 0.01"/>
@@ -144,6 +165,9 @@
     <link name="gripper_right">
         <xacro:default_inertial mass="0.01"/> 
         <visual>
+            <material name="red">
+                <color rgba="1.0 0.0 0.0 1.0" />
+            </material>
             <origin xyz="-0.1 0.5 -0.1" rpy="0 0 -${PI/2}" />
             <geometry>
                         <mesh filename="package://arduinobot_description/meshes/right_finger.STL" scale="0.01 0.01 0.01"/>
@@ -161,6 +185,9 @@
     <link name="gripper_left">
         <xacro:default_inertial mass="0.01"/> 
         <visual>
+            <material name="red">
+                <color rgba="1.0 0.0 0.0 1.0" />
+            </material>
             <origin xyz="-0.04 0.5 -0.1" rpy="0 0 -${PI/2}" />
             <geometry>
                 <mesh filename="package://arduinobot_description/meshes/left_finger.STL" scale="0.01 0.01 0.01"/>

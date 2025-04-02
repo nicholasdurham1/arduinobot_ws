@@ -1,0 +1,5 @@
+[0.231s] Invoking command in '/home/nadurham/arduinobot_ws/build/aruduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nadurham/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nadurham/arduinobot_ws/build/aruduinobot_controller -- -j8 -l8
+[0.244s] [0mCMake Error: The source directory "/home/nadurham/arduinobot_ws/src/aruduinobot_controller" does not exist.
+[0.244s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.251s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.261s] Invoked command in '/home/nadurham/arduinobot_ws/build/aruduinobot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nadurham/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nadurham/arduinobot_ws/build/aruduinobot_controller -- -j8 -l8

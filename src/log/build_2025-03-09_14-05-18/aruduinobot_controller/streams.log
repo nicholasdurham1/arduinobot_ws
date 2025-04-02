@@ -1,0 +1,44 @@
+[0.215s] Invoking command in '/home/nadurham/arduinobot_ws/src/build/aruduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nadurham/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/nadurham/arduinobot_ws/src/aruduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/nadurham/arduinobot_ws/src/install/aruduinobot_controller
+[0.262s] -- The C compiler identification is GNU 11.4.0
+[0.310s] -- The CXX compiler identification is GNU 11.4.0
+[0.318s] -- Detecting C compiler ABI info
+[0.372s] -- Detecting C compiler ABI info - done
+[0.379s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.379s] -- Detecting C compile features
+[0.379s] -- Detecting C compile features - done
+[0.381s] -- Detecting CXX compiler ABI info
+[0.465s] -- Detecting CXX compiler ABI info - done
+[0.477s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.478s] -- Detecting CXX compile features
+[0.478s] -- Detecting CXX compile features - done
+[0.478s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.605s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.703s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.796s] -- Added test 'lint_cmake' to check CMake code style
+[0.798s] -- Added test 'xmllint' to check XML markup files
+[0.799s] -- Configuring done
+[0.801s] -- Generating done
+[0.803s] -- Build files have been written to: /home/nadurham/arduinobot_ws/src/build/aruduinobot_controller
+[0.810s] Invoked command in '/home/nadurham/arduinobot_ws/src/build/aruduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nadurham/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/nadurham/arduinobot_ws/src/aruduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/nadurham/arduinobot_ws/src/install/aruduinobot_controller
+[0.812s] Invoking command in '/home/nadurham/arduinobot_ws/src/build/aruduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nadurham/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nadurham/arduinobot_ws/src/build/aruduinobot_controller -- -j8 -l8
+[0.847s] Invoked command in '/home/nadurham/arduinobot_ws/src/build/aruduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nadurham/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nadurham/arduinobot_ws/src/build/aruduinobot_controller -- -j8 -l8
+[0.848s] Invoking command in '/home/nadurham/arduinobot_ws/src/build/aruduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nadurham/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nadurham/arduinobot_ws/src/build/aruduinobot_controller
+[0.855s] -- Install configuration: ""
+[0.855s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/config
+[0.856s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/config/arduinobot_controllers.yaml
+[0.857s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/ament_index/resource_index/package_run_dependencies/aruduinobot_controller
+[0.857s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/ament_index/resource_index/parent_prefix_path/aruduinobot_controller
+[0.857s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.sh
+[0.857s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.dsv
+[0.857s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.sh
+[0.857s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.dsv
+[0.857s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.bash
+[0.858s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.sh
+[0.858s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.zsh
+[0.858s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.dsv
+[0.858s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/package.dsv
+[0.858s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/ament_index/resource_index/packages/aruduinobot_controller
+[0.858s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig.cmake
+[0.858s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig-version.cmake
+[0.858s] -- Installing: /home/nadurham/arduinobot_ws/src/install/aruduinobot_controller/share/aruduinobot_controller/package.xml
+[0.859s] Invoked command in '/home/nadurham/arduinobot_ws/src/build/aruduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nadurham/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nadurham/arduinobot_ws/src/build/aruduinobot_controller

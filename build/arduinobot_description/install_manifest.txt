@@ -12,6 +12,8 @@
 /home/nadurham/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
 /home/nadurham/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
 /home/nadurham/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+/home/nadurham/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+/home/nadurham/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
 /home/nadurham/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
 /home/nadurham/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
 /home/nadurham/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
