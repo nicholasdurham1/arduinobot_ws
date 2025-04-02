@@ -1,0 +1,17 @@
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/config/arduinobot_controllers.yaml
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/launch/controller.launch.py
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/package_run_dependencies/aruduinobot_controller
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/parent_prefix_path/aruduinobot_controller
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.sh
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.dsv
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.sh
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.dsv
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.bash
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.sh
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.zsh
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.dsv
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/package.dsv
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/packages/aruduinobot_controller
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig.cmake
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig-version.cmake
+/home/nadurham/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/package.xml

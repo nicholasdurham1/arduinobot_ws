@@ -1,0 +1,4 @@
+source;share/aruduinobot_controller/local_setup.bash
+source;share/aruduinobot_controller/local_setup.dsv
+source;share/aruduinobot_controller/local_setup.sh
+source;share/aruduinobot_controller/local_setup.zsh

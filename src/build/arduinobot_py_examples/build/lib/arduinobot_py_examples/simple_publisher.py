@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node 
 from std_msgs.msg import String
 
-
+#test
 
 class SimplePublisher(Node): 
     def __init__(self):
@@ -16,7 +16,7 @@ class SimplePublisher(Node):
     def timerCallback(self): 
         msg = String()
         msg.data = "Hello Ros2 - counter: %d" % self.counter_
-        self.pub_.publish(msg)
+        self.pub.publish(msg)
         self.counter_  +=1
 
 def main():
