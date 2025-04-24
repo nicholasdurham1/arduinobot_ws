@@ -226,6 +226,12 @@
                 <mesh filename="package://arduinobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01" />
             </geometry>
         </visual>
+        <collision>
+            <origin xyz="-0.1 0.125 .15" rpy="-1.57 0 -1.57" />
+            <geometry>
+                <mesh filename="package://arduinobot_description/meshes/pi_camera.STL" scale="0.01 0.01 0.01" />
+            </geometry>
+        </collision>
     </link>
     <joint name="rgb_joint" type="fixed">
         <parent link="base_link" />

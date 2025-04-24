@@ -1,0 +1,32 @@
+[0.018s] Invoking command in '/home/nicholas/arduinobot_ws/build/arduinobot_remote': /usr/bin/cmake /home/nicholas/arduinobot_ws/src/arduinobot_remote -DCMAKE_INSTALL_PREFIX=/home/nicholas/arduinobot_ws/install/arduinobot_remote
+[0.028s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.138s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.181s] Error parsing '/home/nicholas/arduinobot_ws/src/arduinobot_remote/package.xml':
+[0.216s] Traceback (most recent call last):
+[0.217s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.217s]     main()
+[0.217s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.217s]     raise e
+[0.217s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.217s]     package = parse_package_string(
+[0.217s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.217s]     pkg.validate(warnings=warnings)
+[0.217s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.217s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.217s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/nicholas/arduinobot_ws/src/arduinobot_remote/package.xml':
+[0.217s] Invalid email "Nick Durham" for person "nicholas"
+[0.228s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.228s]   execute_process(/usr/bin/python3
+[0.228s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.228s]   /home/nicholas/arduinobot_ws/src/arduinobot_remote/package.xml
+[0.228s]   /home/nicholas/arduinobot_ws/build/arduinobot_remote/ament_cmake_core/package.cmake)
+[0.228s]   returned error code 1
+[0.228s] Call Stack (most recent call first):
+[0.228s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.229s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.229s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[0.229s] 
+[0.229s] [0m
+[0.229s] -- Configuring incomplete, errors occurred!
+[0.229s] See also "/home/nicholas/arduinobot_ws/build/arduinobot_remote/CMakeFiles/CMakeOutput.log".
+[0.231s] Invoked command in '/home/nicholas/arduinobot_ws/build/arduinobot_remote' returned '1': /usr/bin/cmake /home/nicholas/arduinobot_ws/src/arduinobot_remote -DCMAKE_INSTALL_PREFIX=/home/nicholas/arduinobot_ws/install/arduinobot_remote

@@ -1,0 +1,23 @@
+[0.280s] Invoking command in '/home/nicholas/arduinobot_ws/build/arduinobot_remote': CMAKE_PREFIX_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_msgs:/home/nicholas/arduinobot_ws/install/aruduinobot_controller:/home/nicholas/arduinobot_ws/install/arduinobot_utils:/home/nicholas/arduinobot_ws/install/arduinobot_remote:/home/nicholas/arduinobot_ws/install/arduinobot_moveit:/home/nicholas/arduinobot_ws/install/arduinobot_description:/home/nicholas/arduinobot_ws/install/arduinobot_cpp_examples:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/arduinobot_remote -- -j16 -l16
+[0.304s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.443s] -- Configuring incomplete, errors occurred!
+[0.443s] See also "/home/nicholas/arduinobot_ws/build/arduinobot_remote/CMakeFiles/CMakeOutput.log".
+[0.443s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.444s]   By not providing "Findament_cmmake_python.cmake" in CMAKE_MODULE_PATH this
+[0.444s]   project has asked CMake to find a package configuration file provided by
+[0.444s]   "ament_cmmake_python", but CMake did not find one.
+[0.444s] 
+[0.444s]   Could not find a package configuration file provided by
+[0.444s]   "ament_cmmake_python" with any of the following names:
+[0.444s] 
+[0.444s]     ament_cmmake_pythonConfig.cmake
+[0.444s]     ament_cmmake_python-config.cmake
+[0.444s] 
+[0.444s]   Add the installation prefix of "ament_cmmake_python" to CMAKE_PREFIX_PATH
+[0.444s]   or set "ament_cmmake_python_DIR" to a directory containing one of the above
+[0.445s]   files.  If "ament_cmmake_python" provides a separate development package or
+[0.445s]   SDK, be sure it has been installed.
+[0.445s] 
+[0.445s] [0m
+[0.449s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.451s] Invoked command in '/home/nicholas/arduinobot_ws/build/arduinobot_remote' returned '2': CMAKE_PREFIX_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_msgs:/home/nicholas/arduinobot_ws/install/aruduinobot_controller:/home/nicholas/arduinobot_ws/install/arduinobot_utils:/home/nicholas/arduinobot_ws/install/arduinobot_remote:/home/nicholas/arduinobot_ws/install/arduinobot_moveit:/home/nicholas/arduinobot_ws/install/arduinobot_description:/home/nicholas/arduinobot_ws/install/arduinobot_cpp_examples:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/arduinobot_remote -- -j16 -l16

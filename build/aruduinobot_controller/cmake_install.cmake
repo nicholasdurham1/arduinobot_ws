@@ -1,8 +1,8 @@
-# Install script for directory: /home/nadurham/arduinobot_ws/src/aruduinobot_controller
+# Install script for directory: /home/nicholas/arduinobot_ws/src/aruduinobot_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nadurham/arduinobot_ws/install/aruduinobot_controller")
+  set(CMAKE_INSTALL_PREFIX "/home/nicholas/arduinobot_ws/install/aruduinobot_controller")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,17 +44,17 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE DIRECTORY FILES
-    "/home/nadurham/arduinobot_ws/src/aruduinobot_controller/config"
-    "/home/nadurham/arduinobot_ws/src/aruduinobot_controller/launch"
+    "/home/nicholas/arduinobot_ws/src/aruduinobot_controller/config"
+    "/home/nicholas/arduinobot_ws/src/aruduinobot_controller/launch"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aruduinobot_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aruduinobot_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aruduinobot_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aruduinobot_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -62,7 +62,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller/environment" TYPE FILE FILES "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller/environment" TYPE FILE FILES "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,42 +70,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller/environment" TYPE FILE FILES "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller/environment" TYPE FILE FILES "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE FILE FILES "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE FILE FILES "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE FILE FILES "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE FILE FILES "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE FILE FILES "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE FILE FILES "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE FILE FILES "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE FILE FILES "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE FILE FILES "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE FILE FILES "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/ament_cmake_index/share/ament_index/resource_index/packages/aruduinobot_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/ament_cmake_index/share/ament_index/resource_index/packages/aruduinobot_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller/cmake" TYPE FILE FILES
-    "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/ament_cmake_core/aruduinobot_controllerConfig.cmake"
-    "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/ament_cmake_core/aruduinobot_controllerConfig-version.cmake"
+    "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/ament_cmake_core/aruduinobot_controllerConfig.cmake"
+    "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/ament_cmake_core/aruduinobot_controllerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE FILE FILES "/home/nadurham/arduinobot_ws/src/aruduinobot_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruduinobot_controller" TYPE FILE FILES "/home/nicholas/arduinobot_ws/src/aruduinobot_controller/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -116,5 +116,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nadurham/arduinobot_ws/build/aruduinobot_controller/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nicholas/arduinobot_ws/build/aruduinobot_controller/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

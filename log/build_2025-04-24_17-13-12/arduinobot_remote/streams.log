@@ -1,0 +1,49 @@
+[0.401s] Invoking command in '/home/nicholas/arduinobot_ws/build/arduinobot_remote': CMAKE_PREFIX_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_moveit:/home/nicholas/arduinobot_ws/install/arduinobot_msgs:/home/nicholas/arduinobot_ws/install/arduinobot_description:/home/nicholas/arduinobot_ws/install/aruduinobot_controller:/home/nicholas/arduinobot_ws/install/arduinobot_utils:/home/nicholas/arduinobot_ws/install/arduinobot_remote:/home/nicholas/arduinobot_ws/install/arduinobot_cpp_examples:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_msgs/lib:/home/nicholas/arduinobot_ws/install/arduinobot_remote/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/arduinobot_remote -- -j16 -l16
+[0.508s] [35m[1mConsolidate compiler generated dependencies of target task_server[0m
+[0.526s] [ 50%] Built target task_server_node
+[0.543s] [ 50%] Built target ament_cmake_python_copy_arduinobot_remote
+[0.562s] [ 75%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+[0.869s] running egg_info
+[0.869s] writing arduinobot_remote.egg-info/PKG-INFO
+[0.869s] writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+[0.873s] writing top-level names to arduinobot_remote.egg-info/top_level.txt
+[0.875s] reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[0.876s] writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[0.995s] [ 75%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[11.364s] [100%] [32m[1mLinking CXX shared library libtask_server.so[0m
+[11.850s] [100%] Built target task_server
+[11.874s] Invoked command in '/home/nicholas/arduinobot_ws/build/arduinobot_remote' returned '0': CMAKE_PREFIX_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_moveit:/home/nicholas/arduinobot_ws/install/arduinobot_msgs:/home/nicholas/arduinobot_ws/install/arduinobot_description:/home/nicholas/arduinobot_ws/install/aruduinobot_controller:/home/nicholas/arduinobot_ws/install/arduinobot_utils:/home/nicholas/arduinobot_ws/install/arduinobot_remote:/home/nicholas/arduinobot_ws/install/arduinobot_cpp_examples:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_msgs/lib:/home/nicholas/arduinobot_ws/install/arduinobot_remote/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/arduinobot_remote -- -j16 -l16
+[11.874s] Invoking command in '/home/nicholas/arduinobot_ws/build/arduinobot_remote': CMAKE_PREFIX_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_moveit:/home/nicholas/arduinobot_ws/install/arduinobot_msgs:/home/nicholas/arduinobot_ws/install/arduinobot_description:/home/nicholas/arduinobot_ws/install/aruduinobot_controller:/home/nicholas/arduinobot_ws/install/arduinobot_utils:/home/nicholas/arduinobot_ws/install/arduinobot_remote:/home/nicholas/arduinobot_ws/install/arduinobot_cpp_examples:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_msgs/lib:/home/nicholas/arduinobot_ws/install/arduinobot_remote/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --install /home/nicholas/arduinobot_ws/build/arduinobot_remote
+[11.887s] -- Install configuration: ""
+[11.888s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/lib/arduinobot_remote/task_server_node
+[11.888s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/pythonpath.sh
+[11.888s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/pythonpath.dsv
+[11.888s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info
+[11.888s] -- Installing: /home/nicholas/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info/top_level.txt
+[11.889s] -- Installing: /home/nicholas/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.889s] -- Installing: /home/nicholas/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.889s] -- Installing: /home/nicholas/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info/PKG-INFO
+[11.889s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote
+[11.889s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote/__init__.py
+[11.934s] Listing '/home/nicholas/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote'...
+[11.941s] -- Installing: /home/nicholas/arduinobot_ws/install/arduinobot_remote/lib/libtask_server.so
+[11.943s] -- Set runtime path of "/home/nicholas/arduinobot_ws/install/arduinobot_remote/lib/libtask_server.so" to ""
+[11.944s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/launch
+[11.944s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/launch/remote_interface.launch.py
+[11.944s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/ament_index/resource_index/package_run_dependencies/arduinobot_remote
+[11.944s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/ament_index/resource_index/parent_prefix_path/arduinobot_remote
+[11.944s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/ament_prefix_path.sh
+[11.944s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/ament_prefix_path.dsv
+[11.944s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/path.sh
+[11.944s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/path.dsv
+[11.944s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/local_setup.bash
+[11.944s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/local_setup.sh
+[11.944s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/local_setup.zsh
+[11.945s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/local_setup.dsv
+[11.945s] -- Installing: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.dsv
+[11.945s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/ament_index/resource_index/packages/arduinobot_remote
+[11.945s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/ament_index/resource_index/rclcpp_components/arduinobot_remote
+[11.945s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/cmake/arduinobot_remoteConfig.cmake
+[11.945s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/cmake/arduinobot_remoteConfig-version.cmake
+[11.945s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.xml
+[11.949s] Invoked command in '/home/nicholas/arduinobot_ws/build/arduinobot_remote' returned '0': CMAKE_PREFIX_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_moveit:/home/nicholas/arduinobot_ws/install/arduinobot_msgs:/home/nicholas/arduinobot_ws/install/arduinobot_description:/home/nicholas/arduinobot_ws/install/aruduinobot_controller:/home/nicholas/arduinobot_ws/install/arduinobot_utils:/home/nicholas/arduinobot_ws/install/arduinobot_remote:/home/nicholas/arduinobot_ws/install/arduinobot_cpp_examples:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_msgs/lib:/home/nicholas/arduinobot_ws/install/arduinobot_remote/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --install /home/nicholas/arduinobot_ws/build/arduinobot_remote

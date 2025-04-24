@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nadurham/arduinobot_ws/src/arduinobot_cpp_examples
+CMAKE_SOURCE_DIR = /home/nicholas/arduinobot_ws/src/arduinobot_cpp_examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nadurham/arduinobot_ws/build/arduinobot_cpp_examples
+CMAKE_BINARY_DIR = /home/nicholas/arduinobot_ws/build/arduinobot_cpp_examples
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nadurham/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles /home/nadurham/arduinobot_ws/build/arduinobot_cpp_examples//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicholas/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles /home/nicholas/arduinobot_ws/build/arduinobot_cpp_examples//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nadurham/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicholas/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -197,6 +197,43 @@ arduinobot_cpp_examples_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_cpp_examples_uninstall.dir/build.make CMakeFiles/arduinobot_cpp_examples_uninstall.dir/build
 .PHONY : arduinobot_cpp_examples_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named simple_moveit_interface
+
+# Build rule for target.
+simple_moveit_interface: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_moveit_interface
+.PHONY : simple_moveit_interface
+
+# fast build rule for target.
+simple_moveit_interface/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_moveit_interface.dir/build.make CMakeFiles/simple_moveit_interface.dir/build
+.PHONY : simple_moveit_interface/fast
+
+src/simple_moveit_interface.o: src/simple_moveit_interface.cpp.o
+.PHONY : src/simple_moveit_interface.o
+
+# target to build an object file
+src/simple_moveit_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_moveit_interface.dir/build.make CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o
+.PHONY : src/simple_moveit_interface.cpp.o
+
+src/simple_moveit_interface.i: src/simple_moveit_interface.cpp.i
+.PHONY : src/simple_moveit_interface.i
+
+# target to preprocess a source file
+src/simple_moveit_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_moveit_interface.dir/build.make CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.i
+.PHONY : src/simple_moveit_interface.cpp.i
+
+src/simple_moveit_interface.s: src/simple_moveit_interface.cpp.s
+.PHONY : src/simple_moveit_interface.s
+
+# target to generate assembly for a file
+src/simple_moveit_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_moveit_interface.dir/build.make CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.s
+.PHONY : src/simple_moveit_interface.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... arduinobot_cpp_examples_uninstall"
 	@echo "... uninstall"
+	@echo "... simple_moveit_interface"
+	@echo "... src/simple_moveit_interface.o"
+	@echo "... src/simple_moveit_interface.i"
+	@echo "... src/simple_moveit_interface.s"
 .PHONY : help
 
 

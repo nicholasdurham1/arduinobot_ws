@@ -1,0 +1,50 @@
+[0.412s] Invoking command in '/home/nicholas/arduinobot_ws/build/arduinobot_remote': CMAKE_PREFIX_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_moveit:/home/nicholas/arduinobot_ws/install/arduinobot_msgs:/home/nicholas/arduinobot_ws/install/arduinobot_description:/home/nicholas/arduinobot_ws/install/aruduinobot_controller:/home/nicholas/arduinobot_ws/install/arduinobot_utils:/home/nicholas/arduinobot_ws/install/arduinobot_remote:/home/nicholas/arduinobot_ws/install/arduinobot_cpp_examples:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_msgs/lib:/home/nicholas/arduinobot_ws/install/arduinobot_remote/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/arduinobot_remote -- -j16 -l16
+[0.527s] [35m[1mConsolidate compiler generated dependencies of target task_server[0m
+[0.539s] [ 50%] Built target task_server_node
+[0.557s] [ 50%] Built target ament_cmake_python_copy_arduinobot_remote
+[0.580s] [ 75%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+[0.949s] running egg_info
+[0.950s] writing arduinobot_remote.egg-info/PKG-INFO
+[0.952s] writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+[0.952s] writing top-level names to arduinobot_remote.egg-info/top_level.txt
+[0.960s] reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[0.960s] writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[1.033s] [ 75%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[7.194s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:242:112:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[7.194s]   242 |     bool gripper_plan_success = (gripper_move_group.plan(gripper_plan) == moveit::core::MoveItError_::SUCCESS);
+[7.194s]       |                                                                                                                [01;31m[K^[m[K
+[7.194s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:143:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[7.194s]   143 | [01;36m[K{[m[K
+[7.194s]       | [01;36m[K^[m[K
+[7.232s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse arduinobot_remote::TaskServer::cancelCallback(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[7.232s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:174:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.232s]   174 |       [01;35m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask>> goal_handle[m[K)
+[7.232s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[7.239s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Kvoid arduinobot_remote::TaskServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask> >)[m[K’:
+[7.240s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:242:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::core::MoveItError_[m[K’ has not been declared
+[7.240s]   242 |     bool gripper_plan_success = (gripper_move_group.plan(gripper_plan) == moveit::core::[01;31m[KMoveItError_[m[K::SUCCESS);
+[7.240s]       |                                                                                         [01;31m[K^~~~~~~~~~~~[m[K
+[7.240s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:242:112:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[7.240s]   242 |     bool gripper_plan_success = (gripper_move_group.plan(gripper_plan) == moveit::core::MoveItError_::SUCCESS);
+[7.240s]       |                                                                                                                [01;31m[K^[m[K
+[7.240s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:196:3:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[7.240s]   196 |   [01;36m[K{[m[K
+[7.240s]       |   [01;36m[K^[m[K
+[7.241s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:241:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karm_plan_success[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.241s]   241 |     bool [01;35m[Karm_plan_success[m[K = (arm_move_group.plan(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+[7.241s]       |          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[7.241s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:242:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgripper_plan_success[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.241s]   242 |     bool [01;35m[Kgripper_plan_success[m[K = (gripper_move_group.plan(gripper_plan) == moveit::core::MoveItError_::SUCCESS);
+[7.241s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[7.241s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:[m[K At global scope:
+[7.241s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:242:112:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[7.241s]   242 |     bool gripper_plan_success = (gripper_move_group.plan(gripper_plan) == moveit::core::MoveItError_::SUCCESS);
+[7.241s]       |                                                                                                                [01;31m[K^[m[K
+[7.241s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:242:112:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[7.241s] [01m[K/home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp:141:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[7.242s]   141 | [01;36m[K{[m[K
+[7.242s]       | [01;36m[K^[m[K
+[11.093s] gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1
+[11.093s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/task_server.dir/all] Error 2
+[11.094s] gmake: *** [Makefile:146: all] Error 2
+[11.096s] Invoked command in '/home/nicholas/arduinobot_ws/build/arduinobot_remote' returned '2': CMAKE_PREFIX_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_moveit:/home/nicholas/arduinobot_ws/install/arduinobot_msgs:/home/nicholas/arduinobot_ws/install/arduinobot_description:/home/nicholas/arduinobot_ws/install/aruduinobot_controller:/home/nicholas/arduinobot_ws/install/arduinobot_utils:/home/nicholas/arduinobot_ws/install/arduinobot_remote:/home/nicholas/arduinobot_ws/install/arduinobot_cpp_examples:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_msgs/lib:/home/nicholas/arduinobot_ws/install/arduinobot_remote/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/arduinobot_remote -- -j16 -l16

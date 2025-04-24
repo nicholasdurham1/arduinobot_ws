@@ -1,0 +1,2 @@
+Invoking command in '/home/nicholas/arduinobot_ws/build/arduinobot_remote': /usr/bin/cmake /home/nicholas/arduinobot_ws/src/arduinobot_remote -DCMAKE_INSTALL_PREFIX=/home/nicholas/arduinobot_ws/install/arduinobot_remote
+Invoked command in '/home/nicholas/arduinobot_ws/build/arduinobot_remote' returned '1': /usr/bin/cmake /home/nicholas/arduinobot_ws/src/arduinobot_remote -DCMAKE_INSTALL_PREFIX=/home/nicholas/arduinobot_ws/install/arduinobot_remote

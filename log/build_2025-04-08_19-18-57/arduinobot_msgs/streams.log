@@ -1,0 +1,34 @@
+[0.030s] Invoking command in '/home/nicholas/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/arduinobot_msgs -- -j16 -l16
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_generator_c[0m
+[0.103s] [  2%] Built target arduinobot_msgs__cpp
+[0.108s] [ 12%] Built target arduinobot_msgs__rosidl_generator_c
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_typesupport_cpp[0m
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_typesupport_introspection_c[0m
+[0.140s] [ 12%] Built target ament_cmake_python_copy_arduinobot_msgs
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_typesupport_c[0m
+[0.148s] [ 23%] Built target arduinobot_msgs__rosidl_typesupport_cpp
+[0.150s] [ 34%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.151s] [ 44%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c
+[0.151s] [ 55%] Built target arduinobot_msgs__rosidl_typesupport_introspection_cpp
+[0.152s] [ 65%] Built target arduinobot_msgs__rosidl_typesupport_c
+[0.154s] [ 76%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c
+[0.182s] [ 76%] Built target arduinobot_msgs
+[0.208s] [ 78%] Built target arduinobot_msgs__py
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_generator_py[0m
+[0.248s] [ 87%] Built target arduinobot_msgs__rosidl_generator_py
+[0.265s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.265s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.268s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_msgs__rosidl_typesupport_c__pyext[0m
+[0.282s] [ 95%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.282s] [ 95%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.283s] [100%] Built target arduinobot_msgs__rosidl_typesupport_c__pyext
+[0.396s] running egg_info
+[0.396s] writing arduinobot_msgs.egg-info/PKG-INFO
+[0.397s] writing dependency_links to arduinobot_msgs.egg-info/dependency_links.txt
+[0.397s] writing top-level names to arduinobot_msgs.egg-info/top_level.txt
+[0.399s] reading manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[0.400s] writing manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[0.423s] [100%] Built target ament_cmake_python_build_arduinobot_msgs_egg

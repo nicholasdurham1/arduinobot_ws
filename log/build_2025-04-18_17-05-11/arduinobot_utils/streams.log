@@ -1,0 +1,9 @@
+[0.267s] Invoking command in '/home/nicholas/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=/home/nicholas/arduinobot_ws/install/arduinobot_msgs:/home/nicholas/arduinobot_ws/install/aruduinobot_controller:/home/nicholas/arduinobot_ws/install/arduinobot_utils:/home/nicholas/arduinobot_ws/install/arduinobot_remote:/home/nicholas/arduinobot_ws/install/arduinobot_moveit:/home/nicholas/arduinobot_ws/install/arduinobot_description:/home/nicholas/arduinobot_ws/install/arduinobot_cpp_examples:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/arduinobot_utils -- -j16 -l16
+[0.340s] Built target ament_cmake_python_copy_arduinobot_utils
+[0.579s] running egg_info
+[0.579s] writing arduinobot_utils.egg-info/PKG-INFO
+[0.579s] writing dependency_links to arduinobot_utils.egg-info/dependency_links.txt
+[0.579s] writing top-level names to arduinobot_utils.egg-info/top_level.txt
+[0.581s] reading manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[0.582s] writing manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[0.609s] Built target ament_cmake_python_build_arduinobot_utils_egg

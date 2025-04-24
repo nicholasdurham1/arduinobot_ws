@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nadurham/arduinobot_ws/src/arduinobot_cpp_examples
+CMAKE_SOURCE_DIR = /home/nicholas/arduinobot_ws/src/arduinobot_cpp_examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nadurham/arduinobot_ws/build/arduinobot_cpp_examples
+CMAKE_BINARY_DIR = /home/nicholas/arduinobot_ws/build/arduinobot_cpp_examples
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/nadurham/arduinobot_ws/build/arduinobot_cpp_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nadurham/arduinobot_ws/src/arduinobot_cpp_examples /home/nadurham/arduinobot_ws/src/arduinobot_cpp_examples /home/nadurham/arduinobot_ws/build/arduinobot_cpp_examples /home/nadurham/arduinobot_ws/build/arduinobot_cpp_examples /home/nadurham/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nicholas/arduinobot_ws/build/arduinobot_cpp_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicholas/arduinobot_ws/src/arduinobot_cpp_examples /home/nicholas/arduinobot_ws/src/arduinobot_cpp_examples /home/nicholas/arduinobot_ws/build/arduinobot_cpp_examples /home/nicholas/arduinobot_ws/build/arduinobot_cpp_examples /home/nicholas/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

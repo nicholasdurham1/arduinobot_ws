@@ -1,0 +1,6 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: arduinobot_description
+    relative_path: urdf/arduinobot.urdf.xacro
+  srdf:
+    relative_path: config/arduinobot.srdf
