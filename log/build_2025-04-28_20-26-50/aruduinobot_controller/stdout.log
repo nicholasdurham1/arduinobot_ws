@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target aruduinobot_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/aruduinobot_controller.dir/src/arduinobot_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libaruduinobot_controller.so[0m
+[100%] Built target aruduinobot_controller
+-- Install configuration: ""
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/arduinobot_controller.xml
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/config
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/config/arduinobot_controllers.yaml
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/launch
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/launch/controller.launch.py
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/lib/libaruduinobot_controller.so
+-- Set runtime path of "/home/nicholas/arduinobot_ws/install/aruduinobot_controller/lib/libaruduinobot_controller.so" to ""
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include/arduinobot_controller
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include/arduinobot_controller/arduinobot_interface.hpp
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/library_path.sh
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/library_path.dsv
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/package_run_dependencies/aruduinobot_controller
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/parent_prefix_path/aruduinobot_controller
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.sh
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.sh
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.dsv
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.bash
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.sh
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.zsh
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.dsv
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/package.dsv
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/packages/aruduinobot_controller
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/aruduinobot_controller
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig.cmake
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig-version.cmake
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/package.xml

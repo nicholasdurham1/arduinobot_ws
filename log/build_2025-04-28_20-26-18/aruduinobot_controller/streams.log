@@ -1,0 +1,46 @@
+[0.043s] Invoking command in '/home/nicholas/arduinobot_ws/build/aruduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/aruduinobot_controller -- -j16 -l16
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target aruduinobot_controller[0m
+[0.147s] [ 50%] [32mBuilding CXX object CMakeFiles/aruduinobot_controller.dir/src/arduinobot_interface.cpp.o[0m
+[2.450s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[2.450s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:259:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_commands_[m[K’ was not declared in this scope; did you mean ‘[01m[Kprevious_position_commands_[m[K’?
+[2.450s]   259 |   [01;31m[Kprev_position_commands_[m[K.reserve(info_.joints.size());
+[2.450s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.450s]       |   [32m[Kprevious_position_commands_[m[K
+[2.461s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[2.461s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:301:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_commands_[m[K’ was not declared in this scope; did you mean ‘[01m[Kprevious_position_commands_[m[K’?
+[2.462s]   301 |   [01;31m[Kprev_position_commands_[m[K = { 0.0, 0.0, 0.0, 0.0 };
+[2.462s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.462s]       |   [32m[Kprevious_position_commands_[m[K
+[2.462s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:295:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.463s]   295 | CallbackReturn ArduinobotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[2.463s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.464s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[2.464s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:322:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.464s]   322 | CallbackReturn ArduinobotInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[2.464s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.464s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.464s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:344:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.464s]   344 | hardware_interface::return_type ArduinobotInterface::read([01;35m[Kconst rclcpp::Time &time[m[K,
+[2.464s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.464s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:345:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.464s]   345 |                                                           [01;35m[Kconst rclcpp::Duration &period[m[K)
+[2.464s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.469s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.469s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:355:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_commands_[m[K’ was not declared in this scope; did you mean ‘[01m[Kprevious_position_commands_[m[K’?
+[2.469s]   355 |   if (position_commands_ == [01;31m[Kprev_position_commands_[m[K)
+[2.469s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.469s]       |                             [32m[Kprevious_position_commands_[m[K
+[2.476s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:396:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_commands_[m[K’ was not declared in this scope; did you mean ‘[01m[Kprevious_position_commands_[m[K’?
+[2.476s]   396 |   [01;31m[Kprev_position_commands_[m[K = position_commands_;
+[2.476s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.476s]       |   [32m[Kprevious_position_commands_[m[K
+[2.476s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:352:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.476s]   352 | hardware_interface::return_type ArduinobotInterface::write([01;35m[Kconst rclcpp::Time &time[m[K,
+[2.476s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.476s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:353:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.476s]   353 |                                                            [01;35m[Kconst rclcpp::Duration &period[m[K)
+[2.476s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.948s] gmake[2]: *** [CMakeFiles/aruduinobot_controller.dir/build.make:76: CMakeFiles/aruduinobot_controller.dir/src/arduinobot_interface.cpp.o] Error 1
+[2.948s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aruduinobot_controller.dir/all] Error 2
+[2.948s] gmake: *** [Makefile:146: all] Error 2
+[2.951s] Invoked command in '/home/nicholas/arduinobot_ws/build/aruduinobot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/aruduinobot_controller -- -j16 -l16

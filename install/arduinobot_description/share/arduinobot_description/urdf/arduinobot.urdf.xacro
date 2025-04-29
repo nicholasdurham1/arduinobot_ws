@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-
-
-
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arduinobot">
+
+
+
+    <xacro:arg name="is_sim" default="true"/>
 
 
     <xacro:arg name="is_ignition" default="true"/>

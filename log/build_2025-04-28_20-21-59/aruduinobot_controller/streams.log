@@ -1,0 +1,589 @@
+[0.032s] Invoking command in '/home/nicholas/arduinobot_ws/build/aruduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/aruduinobot_controller -- -j16 -l16
+[0.112s] [ 50%] [32mBuilding CXX object CMakeFiles/aruduinobot_controller.dir/src/arduinobot_interface.cpp.o[0m
+[2.418s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In function ‘[01m[Kstd::string arduinobot_controller::compensateZeros(int)[m[K’:
+[2.418s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:14:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+[2.418s]    14 |     } else if[34m[K([m[Kvalue <1[01;31m[K [m[K[32m[K00[m[K){
+[2.418s]       |              [34m[K~[m[K        [01;31m[K^[m[K[32m[K~~[m[K
+[2.418s]       |                       [32m[K)[m[K
+[2.430s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In destructor ‘[01m[Kvirtual arduinobot_controller::ArduinobotInterface::~ArduinobotInterface()[m[K’:
+[2.430s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:28:8:[m[K [01;31m[Kerror: [m[K‘[01m[Karduino_IsOpen[m[K’ was not declared in this scope
+[2.430s]    28 |     if([01;31m[Karduino_IsOpen[m[K())
+[2.430s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.431s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[2.431s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:46:17:[m[K [01;31m[Kerror: [m[K‘[01m[KCallBackReturn[m[K’ has not been declared
+[2.432s]    46 |    if(result != [01;31m[KCallBackReturn[m[K::SUCCESS)
+[2.432s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.435s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:54:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo[m[K’ was not declared in this scope; did you mean ‘[01m[Kinfo_[m[K’?
+[2.435s]    54 |         port_ = [01;31m[Kinfo[m[K.hardware_parameters.at("port");
+[2.435s]       |                 [01;31m[K^~~~[m[K
+[2.435s]       |                 [32m[Kinfo_[m[K
+[2.442s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:65:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_commands_[m[K’ was not declared in this scope; did you mean ‘[01m[Kprevious_position_commands_[m[K’?
+[2.442s]    65 |    [01;31m[Kprev_position_commands_[m[K.reserve(info.joint.size());
+[2.442s]       |    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.442s]       |    [32m[Kprevious_position_commands_[m[K
+[2.445s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:65:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo[m[K’ was not declared in this scope; did you mean ‘[01m[Kinfo_[m[K’?
+[2.445s]    65 |    prev_position_commands_.reserve([01;31m[Kinfo[m[K.joint.size());
+[2.445s]       |                                    [01;31m[K^~~~[m[K
+[2.445s]       |                                    [32m[Kinfo_[m[K
+[2.448s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> arduinobot_controller::ArduinobotInterface::export_state_interfaces()[m[K’:
+[2.448s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:75:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K<[m[K’ token
+[2.448s]    75 |     for(size_t i = 0, i[01;31m[K [m[K[32m[K<[m[K info_.joints.size(); i++)
+[2.448s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[2.448s]       |                        [32m[K;[m[K
+[2.449s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:75:25:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+[2.449s]    75 |     for(size_t i = 0, i [01;31m[K<[m[K info_.joints.size(); i++)
+[2.449s]       |                         [01;31m[K^[m[K
+[2.454s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:77:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_joints[m[K’ was not declared in this scope
+[2.454s]    77 |         state_interfaces.emplace_back(hardware_interface::StateInterface([01;31m[Kinfo_joints[m[K[i].name, hardware_interface::HW_IF_POSITION, &position_states_[i]));
+[2.454s]       |                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[2.457s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> arduinobot_controller::ArduinobotInterface::export_command_interfaces()[m[K’:
+[2.457s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:86:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K<[m[K’ token
+[2.458s]    86 |     for(size_t i = 0, i[01;31m[K [m[K[32m[K<[m[K info_.joints.size(); i++)
+[2.458s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[2.458s]       |                        [32m[K;[m[K
+[2.458s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:86:25:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+[2.458s]    86 |     for(size_t i = 0, i [01;31m[K<[m[K info_.joints.size(); i++)
+[2.458s]       |                         [01;31m[K^[m[K
+[2.464s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:88:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[KSystemInterface[m[K’?
+[2.464s]    88 |         [01;31m[Kstate_interfaces[m[K.emplace_back(hardware_interface::CommandInterface(info_joints[i].name, hardware_interface::HW_IF_POSITION, &position_commands_[i]));
+[2.464s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.464s]       |         [32m[KSystemInterface[m[K
+[2.469s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:88:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_joints[m[K’ was not declared in this scope
+[2.470s]    88 |         state_interfaces.emplace_back(hardware_interface::CommandInterface([01;31m[Kinfo_joints[m[K[i].name, hardware_interface::HW_IF_POSITION, &position_commands_[i]));
+[2.470s]       |                                                                            [01;31m[K^~~~~~~~~~~[m[K
+[2.470s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.471s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.471s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.471s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[2.472s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:96:35:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[2.472s]    96 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger("ArduinoInterface", "starting the robot hardware ....")[m[K);
+[2.472s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.472s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.473s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.473s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.473s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.473s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.473s]       |                 [01;36m[K^~~~~~[m[K
+[2.473s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.474s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.474s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.474s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:96:35:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[2.474s]    96 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger("ArduinoInterface", "starting the robot hardware ....")[m[K);
+[2.474s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.474s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.475s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.475s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.475s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.475s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.475s]       |                 [01;36m[K^~~~~~[m[K
+[2.475s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.476s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.476s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.476s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:96:35:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[2.476s]    96 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger("ArduinoInterface", "starting the robot hardware ....")[m[K);
+[2.476s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.476s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.477s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.477s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.477s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.477s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.477s]       |                 [01;36m[K^~~~~~[m[K
+[2.477s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.478s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.478s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.478s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.478s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:96:35:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[2.478s]    96 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger("ArduinoInterface", "starting the robot hardware ....")[m[K);
+[2.478s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.479s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.479s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.479s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.479s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.480s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.480s]       |                 [01;36m[K^~~~~~[m[K
+[2.480s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.480s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.480s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.480s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.481s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.481s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.481s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:96:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.481s]    96 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("ArduinoInterface", "starting the robot hardware ...."));
+[2.481s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.482s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:98:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_commands_[m[K’ was not declared in this scope; did you mean ‘[01m[Kprevious_position_commands_[m[K’?
+[2.482s]    98 |     [01;31m[Kprev_position_commands_[m[K = {0.0, 0.0, 0.0, 0.0};
+[2.482s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.482s]       |     [32m[Kprevious_position_commands_[m[K
+[2.482s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:99:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktry[m[K’
+[2.482s]    99 |     position_states_ = {0.0, 0.0, 0.0, 0.0}
+[2.483s]       |                                            [01;31m[K^[m[K
+[2.483s]       |                                            [32m[K;[m[K
+[2.483s]   100 | 
+[2.483s]   101 |     [32m[Ktry[m[K
+[2.483s]       |     [32m[K~~~[m[K                                     
+[2.483s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:106:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcatch[m[K’
+[2.483s]   106 |     [01;31m[Kcatch[m[K(const std::exception& e)
+[2.484s]       |     [01;31m[K^~~~~[m[K
+[2.484s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.484s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.484s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.484s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:112:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.484s]   112 |     RCLCPP_INFO(rclcpp::get_logger(ArduinobotInterface[01;31m[K)[m[K, "Hardware started, ready to take commands");
+[2.485s]       |                                                       [01;31m[K^[m[K
+[2.485s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:112:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.485s]   112 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(ArduinobotInterface), "Hardware started, ready to take commands");
+[2.485s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.485s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:112:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.485s]   112 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(ArduinobotInterface), "Hardware started, ready to take commands");
+[2.485s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.485s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:112:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.485s]   112 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(ArduinobotInterface), "Hardware started, ready to take commands");
+[2.485s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.485s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.486s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.486s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.486s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:112:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.486s]   112 |     RCLCPP_INFO(rclcpp::get_logger(ArduinobotInterface[01;31m[K)[m[K, "Hardware started, ready to take commands");
+[2.486s]       |                                                       [01;31m[K^[m[K
+[2.486s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:112:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.486s]   112 |     RCLCPP_INFO(rclcpp::get_logger(ArduinobotInterface[01;31m[K)[m[K, "Hardware started, ready to take commands");
+[2.487s]       |                                                       [01;31m[K^[m[K
+[2.487s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:113:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.487s]   113 |     return CallbackReturn::SUCCESS
+[2.487s]       |                                   [01;31m[K^[m[K
+[2.487s]       |                                   [32m[K;[m[K
+[2.487s]   114 | 
+[2.487s]   115 | [32m[K}[m[K
+[2.487s]       | [32m[K~[m[K                                  
+[2.487s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:94:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.487s]    94 | CallbackReturn ArduinobotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[2.487s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.487s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.487s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.487s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.488s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.488s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.488s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[2.488s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:120:35:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[2.488s]   120 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger("ArduinoInterface", "stopping the robot hardware ....")[m[K);
+[2.488s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.488s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.489s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.489s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.489s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.489s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.490s]       |                 [01;36m[K^~~~~~[m[K
+[2.490s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.490s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.490s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.490s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.490s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.490s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.490s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.490s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.490s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.490s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.490s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.490s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.490s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:120:35:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[2.491s]   120 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger("ArduinoInterface", "stopping the robot hardware ....")[m[K);
+[2.491s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.491s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.492s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.492s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.492s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.492s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.492s]       |                 [01;36m[K^~~~~~[m[K
+[2.492s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.492s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.492s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.492s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.492s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.492s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.492s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.493s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.493s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.493s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.493s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.494s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.494s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.494s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:120:35:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[2.494s]   120 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger("ArduinoInterface", "stopping the robot hardware ....")[m[K);
+[2.494s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.494s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.494s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.494s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.494s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.494s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.494s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.494s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.494s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.494s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.495s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.495s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.495s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.495s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.495s]       |                 [01;36m[K^~~~~~[m[K
+[2.495s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.496s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.496s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.496s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:120:35:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[2.496s]   120 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger("ArduinoInterface", "stopping the robot hardware ....")[m[K);
+[2.496s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.496s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.497s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.497s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.497s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.497s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.497s]       |                 [01;36m[K^~~~~~[m[K
+[2.497s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.498s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.498s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.498s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:120:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.498s]   120 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("ArduinoInterface", "stopping the robot hardware ...."));
+[2.498s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.498s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.499s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.499s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.499s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:129:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.499s]   129 |             RCLCPP_FATAL_STREAM(rclcpp::get_logger(ArduinobotInterface[01;31m[K)[m[K, "something went wrong while closing connection with the port" <<port_);
+[2.499s]       |                                                                       [01;31m[K^[m[K
+[2.499s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:129:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.499s]   129 |             [01;31m[KRCLCPP_FATAL_STREAM[m[K(rclcpp::get_logger(ArduinobotInterface), "something went wrong while closing connection with the port" <<port_);
+[2.500s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.500s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:129:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.500s]   129 |             [01;31m[KRCLCPP_FATAL_STREAM[m[K(rclcpp::get_logger(ArduinobotInterface), "something went wrong while closing connection with the port" <<port_);
+[2.500s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.500s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:129:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.500s]   129 |             [01;31m[KRCLCPP_FATAL_STREAM[m[K(rclcpp::get_logger(ArduinobotInterface), "something went wrong while closing connection with the port" <<port_);
+[2.500s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.500s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.501s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.501s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.501s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.501s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.501s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.501s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:129:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.501s]   129 |             RCLCPP_FATAL_STREAM(rclcpp::get_logger(ArduinobotInterface[01;31m[K)[m[K, "something went wrong while closing connection with the port" <<port_);
+[2.501s]       |                                                                       [01;31m[K^[m[K
+[2.501s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:129:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.501s]   129 |             RCLCPP_FATAL_STREAM(rclcpp::get_logger(ArduinobotInterface[01;31m[K)[m[K, "something went wrong while closing connection with the port" <<port_);
+[2.501s]       |                                                                       [01;31m[K^[m[K
+[2.501s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:130:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.501s]   130 |             return CallbackReturn::FAILURE
+[2.501s]       |                                           [01;31m[K^[m[K
+[2.502s]       |                                           [32m[K;[m[K
+[2.502s]   131 |         [32m[K}[m[K
+[2.502s]       |         [32m[K~[m[K                                  
+[2.502s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.502s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.502s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.502s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.502s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.502s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.502s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.502s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.502s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.503s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.503s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.503s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.503s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:135:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.503s]   135 |     RCLCPP_FATAL_STREAM(rclcpp::get_logger(ArduinobotInterface[01;31m[K)[m[K, "hardware stopped");
+[2.503s]       |                                                               [01;31m[K^[m[K
+[2.503s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:135:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.503s]   135 |     [01;31m[KRCLCPP_FATAL_STREAM[m[K(rclcpp::get_logger(ArduinobotInterface), "hardware stopped");
+[2.503s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.503s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:135:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.503s]   135 |     [01;31m[KRCLCPP_FATAL_STREAM[m[K(rclcpp::get_logger(ArduinobotInterface), "hardware stopped");
+[2.503s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.503s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:135:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.503s]   135 |     [01;31m[KRCLCPP_FATAL_STREAM[m[K(rclcpp::get_logger(ArduinobotInterface), "hardware stopped");
+[2.503s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.504s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.504s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.504s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.504s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:135:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.505s]   135 |     RCLCPP_FATAL_STREAM(rclcpp::get_logger(ArduinobotInterface[01;31m[K)[m[K, "hardware stopped");
+[2.505s]       |                                                               [01;31m[K^[m[K
+[2.505s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:135:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.505s]   135 |     RCLCPP_FATAL_STREAM(rclcpp::get_logger(ArduinobotInterface[01;31m[K)[m[K, "hardware stopped");
+[2.505s]       |                                                               [01;31m[K^[m[K
+[2.505s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:136:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.505s]   136 |     return CallbackReturn::SUCCESS
+[2.505s]       |                                   [01;31m[K^[m[K
+[2.505s]       |                                   [32m[K;[m[K
+[2.505s]   137 | 
+[2.505s]   138 | [32m[K}[m[K
+[2.505s]       | [32m[K~[m[K                                  
+[2.505s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:118:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.505s]   118 | CallbackReturn ArduinobotInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[2.505s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.506s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.506s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:141:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.506s]   141 | hardware_interface::return_type ArduinobotInterface::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[2.506s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.506s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:141:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.506s]   141 | hardware_interface::return_type ArduinobotInterface::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[2.506s]       |                                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.506s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.506s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:150:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_commands_[m[K’ was not declared in this scope; did you mean ‘[01m[Kprevious_position_commands_[m[K’?
+[2.506s]   150 |     if(position_commands_ == [01;31m[Kprev_position_commands_[m[K)
+[2.506s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.506s]       |                              [32m[Kprevious_position_commands_[m[K
+[2.506s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.507s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.507s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.508s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:183:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.508s]   183 |         RCLCPP_ERROR_STREAM(rclcpp::get_logger(ArduinobotInterface[01;31m[K)[m[K, "something went wrong while sending the message" << msg << port_);
+[2.508s]       |                                                                   [01;31m[K^[m[K
+[2.508s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:183:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.508s]   183 |         [01;31m[KRCLCPP_ERROR_STREAM[m[K(rclcpp::get_logger(ArduinobotInterface), "something went wrong while sending the message" << msg << port_);
+[2.508s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.508s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:183:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.508s]   183 |         [01;31m[KRCLCPP_ERROR_STREAM[m[K(rclcpp::get_logger(ArduinobotInterface), "something went wrong while sending the message" << msg << port_);
+[2.508s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.508s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:183:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.508s]   183 |         [01;31m[KRCLCPP_ERROR_STREAM[m[K(rclcpp::get_logger(ArduinobotInterface), "something went wrong while sending the message" << msg << port_);
+[2.508s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.508s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.508s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.509s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+[2.509s]                  from [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[2.509s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:183:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.509s]   183 |         RCLCPP_ERROR_STREAM(rclcpp::get_logger(ArduinobotInterface[01;31m[K)[m[K, "something went wrong while sending the message" << msg << port_);
+[2.509s]       |                                                                   [01;31m[K^[m[K
+[2.509s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:183:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.510s]   183 |         RCLCPP_ERROR_STREAM(rclcpp::get_logger(ArduinobotInterface[01;31m[K)[m[K, "something went wrong while sending the message" << msg << port_);
+[2.510s]       |                                                                   [01;31m[K^[m[K
+[2.510s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:184:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.510s]   184 |         return hardware_interface::return_type::ERROR
+[2.510s]       |                                                      [01;31m[K^[m[K
+[2.510s]       |                                                      [32m[K;[m[K
+[2.510s]   185 |     [32m[K}[m[K
+[2.510s]       |     [32m[K~[m[K                                                 
+[2.510s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:187:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_commands_[m[K’ was not declared in this scope; did you mean ‘[01m[Kprevious_position_commands_[m[K’?
+[2.510s]   187 |     [01;31m[Kprev_position_commands_[m[K = position_commands_;
+[2.510s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.510s]       |     [32m[Kprevious_position_commands_[m[K
+[2.510s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:188:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kretrun[m[K’ was not declared in this scope
+[2.510s]   188 |     [01;31m[Kretrun[m[K hardware_interface::return_type::OK;
+[2.511s]       |     [01;31m[K^~~~~~[m[K
+[2.511s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:148:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.511s]   148 | hardware_interface::return_type ArduinobotInterface::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[2.511s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.511s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:148:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.511s]   148 | hardware_interface::return_type ArduinobotInterface::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[2.511s]       |                                                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.935s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:189:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.935s]   189 | [01;35m[K}[m[K
+[2.935s]       | [01;35m[K^[m[K
+[2.977s] gmake[2]: *** [CMakeFiles/aruduinobot_controller.dir/build.make:76: CMakeFiles/aruduinobot_controller.dir/src/arduinobot_interface.cpp.o] Error 1
+[2.978s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aruduinobot_controller.dir/all] Error 2
+[2.978s] gmake: *** [Makefile:146: all] Error 2
+[2.982s] Invoked command in '/home/nicholas/arduinobot_ws/build/aruduinobot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/aruduinobot_controller -- -j16 -l16

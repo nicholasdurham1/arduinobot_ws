@@ -1,0 +1,58 @@
+[35m[1mConsolidate compiler generated dependencies of target aruduinobot_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/aruduinobot_controller.dir/src/arduinobot_interface.cpp.o[0m
+[01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:100:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  100 | CallbackReturn ArduinobotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:127:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  127 | CallbackReturn ArduinobotInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:149:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  149 | hardware_interface::return_type ArduinobotInterface::read([01;35m[Kconst rclcpp::Time &time[m[K,
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:150:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  150 |                                                           [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:157:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  157 | hardware_interface::return_type ArduinobotInterface::write([01;35m[Kconst rclcpp::Time &time[m[K,
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:158:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  158 |                                                            [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libaruduinobot_controller.so[0m
+[100%] Built target aruduinobot_controller
+-- Install configuration: ""
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/arduinobot_controller.xml
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/config
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/config/arduinobot_controllers.yaml
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/launch
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/launch/controller.launch.py
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/lib/libaruduinobot_controller.so
+-- Set runtime path of "/home/nicholas/arduinobot_ws/install/aruduinobot_controller/lib/libaruduinobot_controller.so" to ""
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include/arduinobot_controller
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include/arduinobot_controller/arduinobot_interface.hpp
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/library_path.sh
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/library_path.dsv
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/package_run_dependencies/aruduinobot_controller
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/parent_prefix_path/aruduinobot_controller
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.sh
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.dsv
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.bash
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.sh
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.zsh
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.dsv
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/package.dsv
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/packages/aruduinobot_controller
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/aruduinobot_controller
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig.cmake
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig-version.cmake
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/package.xml
