@@ -1,0 +1,32 @@
+[100%] Built target aruduinobot_controller
+-- Install configuration: ""
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/arduinobot_controller.xml
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/config
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/config/arduinobot_controllers.yaml
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/launch
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/launch/controller.launch.py
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/lib/libaruduinobot_controller.so
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include/arduinobot_controller
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include/arduinobot_controller/arduinobot_interface.hpp
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/library_path.sh
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/library_path.dsv
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/package_run_dependencies/aruduinobot_controller
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/parent_prefix_path/aruduinobot_controller
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.sh
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.dsv
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.bash
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.sh
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.zsh
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.dsv
+-- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/package.dsv
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/packages/aruduinobot_controller
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/aruduinobot_controller
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig.cmake
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig-version.cmake
+-- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/package.xml

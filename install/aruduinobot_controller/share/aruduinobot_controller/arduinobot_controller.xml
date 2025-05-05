@@ -1,4 +1,4 @@
-<library path="arduinobot_controller">
+<library path="aruduinobot_controller"> 
     <class name="arduinobot_controller/ArduinobotInterface"
             type="arduinobot_controller::ArduinobotInterface"
             base_class_type="hardware_interface::SystemInterface">
