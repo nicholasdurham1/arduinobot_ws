@@ -40,6 +40,12 @@ install(TARGETS
   RUNTIME DESTINATION bin
 )
 
+install(PROGRAMS
+  ${PROJECT_NAME}/alexa_interface.py
+  DESTINATION lib/${PROJECT_NAME}
+
+)
+
 install(
   DIRECTORY launch 
   DESTINATION share/${PROJECT_NAME}

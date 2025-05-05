@@ -1,0 +1,62 @@
+[0.031s] Invoking command in '/home/nicholas/arduinobot_ws/build/aruduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/aruduinobot_controller -- -j16 -l16
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target aruduinobot_controller[0m
+[0.125s] [ 50%] [32mBuilding CXX object CMakeFiles/aruduinobot_controller.dir/src/arduinobot_interface.cpp.o[0m
+[2.380s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[2.380s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:295:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.380s]   295 | CallbackReturn ArduinobotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[2.380s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.381s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[2.381s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:322:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.381s]   322 | CallbackReturn ArduinobotInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[2.381s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.382s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.382s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:344:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.382s]   344 | hardware_interface::return_type ArduinobotInterface::read([01;35m[Kconst rclcpp::Time &time[m[K,
+[2.382s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.382s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:345:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.382s]   345 |                                                           [01;35m[Kconst rclcpp::Duration &period[m[K)
+[2.382s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.383s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.383s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:352:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.384s]   352 | hardware_interface::return_type ArduinobotInterface::write([01;35m[Kconst rclcpp::Time &time[m[K,
+[2.384s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.384s] [01m[K/home/nicholas/arduinobot_ws/src/aruduinobot_controller/src/arduinobot_interface.cpp:353:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.384s]   353 |                                                            [01;35m[Kconst rclcpp::Duration &period[m[K)
+[2.384s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.273s] [100%] [32m[1mLinking CXX shared library libaruduinobot_controller.so[0m
+[3.475s] [100%] Built target aruduinobot_controller
+[3.489s] Invoked command in '/home/nicholas/arduinobot_ws/build/aruduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/aruduinobot_controller -- -j16 -l16
+[3.491s] Invoking command in '/home/nicholas/arduinobot_ws/build/aruduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nicholas/arduinobot_ws/build/aruduinobot_controller
+[3.499s] -- Install configuration: ""
+[3.500s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/arduinobot_controller.xml
+[3.500s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/config
+[3.500s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/config/arduinobot_controllers.yaml
+[3.501s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/launch
+[3.501s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/launch/controller.launch.py
+[3.501s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/lib/libaruduinobot_controller.so
+[3.501s] -- Set runtime path of "/home/nicholas/arduinobot_ws/install/aruduinobot_controller/lib/libaruduinobot_controller.so" to ""
+[3.501s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include
+[3.501s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include/arduinobot_controller
+[3.501s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include/arduinobot_controller/arduinobot_interface.hpp
+[3.502s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/library_path.sh
+[3.502s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/library_path.dsv
+[3.502s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/package_run_dependencies/aruduinobot_controller
+[3.502s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/parent_prefix_path/aruduinobot_controller
+[3.503s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.sh
+[3.503s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.dsv
+[3.503s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.sh
+[3.503s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.dsv
+[3.504s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.bash
+[3.504s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.sh
+[3.504s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.zsh
+[3.504s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.dsv
+[3.504s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/package.dsv
+[3.504s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/packages/aruduinobot_controller
+[3.504s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/aruduinobot_controller
+[3.505s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.505s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[3.505s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.505s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig.cmake
+[3.506s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig-version.cmake
+[3.506s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/package.xml
+[3.509s] Invoked command in '/home/nicholas/arduinobot_ws/build/aruduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nicholas/arduinobot_ws/build/aruduinobot_controller

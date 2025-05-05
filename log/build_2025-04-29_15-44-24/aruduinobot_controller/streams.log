@@ -1,0 +1,36 @@
+[0.030s] Invoking command in '/home/nicholas/arduinobot_ws/build/aruduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/aruduinobot_controller -- -j16 -l16
+[0.097s] [100%] Built target aruduinobot_controller
+[0.127s] Invoked command in '/home/nicholas/arduinobot_ws/build/aruduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nicholas/arduinobot_ws/build/aruduinobot_controller -- -j16 -l16
+[0.127s] Invoking command in '/home/nicholas/arduinobot_ws/build/aruduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nicholas/arduinobot_ws/build/aruduinobot_controller
+[0.133s] -- Install configuration: ""
+[0.134s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/arduinobot_controller.xml
+[0.134s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/config
+[0.134s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/config/arduinobot_controllers.yaml
+[0.134s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/launch
+[0.134s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/launch/controller.launch.py
+[0.134s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/lib/libaruduinobot_controller.so
+[0.134s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include
+[0.135s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include/arduinobot_controller
+[0.135s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/include/include/arduinobot_controller/arduinobot_interface.hpp
+[0.135s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/library_path.sh
+[0.135s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/library_path.dsv
+[0.135s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/package_run_dependencies/aruduinobot_controller
+[0.135s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/parent_prefix_path/aruduinobot_controller
+[0.135s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.sh
+[0.135s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/ament_prefix_path.dsv
+[0.135s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.sh
+[0.135s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/environment/path.dsv
+[0.136s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.bash
+[0.136s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.sh
+[0.136s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.zsh
+[0.136s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/local_setup.dsv
+[0.136s] -- Installing: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/package.dsv
+[0.136s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/packages/aruduinobot_controller
+[0.136s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/aruduinobot_controller
+[0.136s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.136s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[0.136s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.136s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig.cmake
+[0.137s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/cmake/aruduinobot_controllerConfig-version.cmake
+[0.138s] -- Up-to-date: /home/nicholas/arduinobot_ws/install/aruduinobot_controller/share/aruduinobot_controller/package.xml
+[0.140s] Invoked command in '/home/nicholas/arduinobot_ws/build/aruduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicholas/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nicholas/arduinobot_ws/build/aruduinobot_controller

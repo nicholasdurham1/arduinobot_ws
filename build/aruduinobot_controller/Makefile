@@ -197,6 +197,43 @@ aruduinobot_controller_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aruduinobot_controller_uninstall.dir/build.make CMakeFiles/aruduinobot_controller_uninstall.dir/build
 .PHONY : aruduinobot_controller_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named aruduinobot_controller
+
+# Build rule for target.
+aruduinobot_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aruduinobot_controller
+.PHONY : aruduinobot_controller
+
+# fast build rule for target.
+aruduinobot_controller/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aruduinobot_controller.dir/build.make CMakeFiles/aruduinobot_controller.dir/build
+.PHONY : aruduinobot_controller/fast
+
+src/arduinobot_interface.o: src/arduinobot_interface.cpp.o
+.PHONY : src/arduinobot_interface.o
+
+# target to build an object file
+src/arduinobot_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aruduinobot_controller.dir/build.make CMakeFiles/aruduinobot_controller.dir/src/arduinobot_interface.cpp.o
+.PHONY : src/arduinobot_interface.cpp.o
+
+src/arduinobot_interface.i: src/arduinobot_interface.cpp.i
+.PHONY : src/arduinobot_interface.i
+
+# target to preprocess a source file
+src/arduinobot_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aruduinobot_controller.dir/build.make CMakeFiles/aruduinobot_controller.dir/src/arduinobot_interface.cpp.i
+.PHONY : src/arduinobot_interface.cpp.i
+
+src/arduinobot_interface.s: src/arduinobot_interface.cpp.s
+.PHONY : src/arduinobot_interface.s
+
+# target to generate assembly for a file
+src/arduinobot_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aruduinobot_controller.dir/build.make CMakeFiles/aruduinobot_controller.dir/src/arduinobot_interface.cpp.s
+.PHONY : src/arduinobot_interface.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... aruduinobot_controller_uninstall"
 	@echo "... uninstall"
+	@echo "... aruduinobot_controller"
+	@echo "... src/arduinobot_interface.o"
+	@echo "... src/arduinobot_interface.i"
+	@echo "... src/arduinobot_interface.s"
 .PHONY : help
 
 

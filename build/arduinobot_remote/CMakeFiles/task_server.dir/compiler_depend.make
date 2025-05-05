@@ -3,8 +3,8 @@
 
 CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/bits/stl_algobase.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
+  /usr/include/c++/11/csignal \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
@@ -17,6 +17,54 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/signal.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
   /usr/include/c++/11/bits/exception_defines.h \
   /usr/include/c++/11/bits/cpp_type_traits.h \
@@ -50,9 +98,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -77,7 +122,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
   /usr/include/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
@@ -96,10 +140,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
   /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
@@ -112,14 +152,7 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
@@ -135,39 +168,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
-  /usr/include/c++/11/csignal \
-  /usr/include/signal.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/linux/close_range.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
   /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
   /usr/include/c++/11/future \
   /usr/include/c++/11/mutex \
@@ -745,6 +745,35 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
   /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /usr/include/c++/11/cstddef \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/arduinobot_task.hpp \
+  /home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp \
+  /home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__builder.hpp \
+  /home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__traits.hpp \
+  /home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__type_support.hpp \
+  /home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h \
   /opt/ros/humble/include/moveit/macros/class_forward.h \
   /opt/ros/humble/include/moveit/macros/declare_ptr.h \
@@ -782,7 +811,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
   /usr/include/boost/config/user.hpp \
   /usr/include/boost/config/detail/select_compiler_config.hpp \
   /usr/include/boost/config/compiler/gcc.hpp \
-  /usr/include/c++/11/cstddef \
   /usr/include/boost/config/detail/select_stdlib_config.hpp \
   /usr/include/c++/11/version \
   /usr/include/boost/config/stdlib/libstdcpp3.hpp \
@@ -1283,16 +1311,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
   /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp \
   /opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__builder.hpp \
   /opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__traits.hpp \
   /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
@@ -1361,46 +1379,8 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
-  /opt/ros/humble/include/moveit_move_group_interface_export.h \
-  /home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/arduinobot_task.hpp \
-  /home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__struct.hpp \
-  /home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__builder.hpp \
-  /home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__traits.hpp \
-  /home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__type_support.hpp \
-  /home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
-  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
-  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
-  /usr/include/console_bridge/console.h \
-  /usr/include/console_bridge_export.h \
-  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
-  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
-  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
-  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
-  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
-  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
-  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
-  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp
+  /opt/ros/humble/include/moveit_move_group_interface_export.h
 
-
-/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:
-
-/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:
-
-/opt/ros/humble/include/class_loader/class_loader/register_macro.hpp:
-
-/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:
-
-/opt/ros/humble/include/class_loader/class_loader/exceptions.hpp:
-
-/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:
-
-/home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__type_support.hpp:
-
-/home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__traits.hpp:
-
-/home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__struct.hpp:
 
 /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -1487,20 +1467,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__traits.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp:
 
 /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp:
 
@@ -1704,6 +1670,34 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h:
 
+/usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Scaling.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h:
+
+/usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
+
+/usr/include/eigen3/Eigen/src/LU/PartialPivLU.h:
+
+/usr/include/eigen3/Eigen/src/LU/FullPivLU.h:
+
+/usr/include/eigen3/Eigen/src/misc/Image.h:
+
+/usr/include/eigen3/Eigen/src/misc/Kernel.h:
+
+/usr/include/eigen3/Eigen/src/SVD/BDCSVD.h:
+
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
@@ -1733,6 +1727,10 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
+
+/usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
 
 /opt/ros/humble/include/rmw/rmw/qos_profiles.h:
 
@@ -1826,6 +1824,10 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/eigen3/Eigen/src/Core/Random.h:
 
+/usr/include/eigen3/Eigen/LU:
+
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
+
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -1900,6 +1902,8 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/c++/11/condition_variable:
 
+/home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__type_support.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
@@ -1952,6 +1956,8 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /opt/ros/humble/include/rcl/rcl/timer.h:
 
+/opt/ros/humble/include/class_loader/class_loader/register_macro.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/Inverse.h:
 
 /usr/include/boost/mpl/aux_/config/static_constant.hpp:
@@ -1998,6 +2004,10 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h:
 
+/opt/ros/humble/include/moveit/robot_model/link_model.h:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h:
+
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
@@ -2022,9 +2032,9 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
-
 /usr/include/c++/11/bits/list.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
@@ -2067,6 +2077,8 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
 
 /opt/ros/humble/include/rcl/rcl/macros.h:
+
+/home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rmw/rmw/ret_types.h:
 
@@ -2152,10 +2164,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
-/opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp:
-
-/usr/include/c++/11/bits/streambuf_iterator.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__builder.hpp:
@@ -2190,128 +2198,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/c++/11/cassert:
 
-/opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp:
-
-/usr/include/c++/11/exception:
-
-/usr/include/c++/11/bits/stl_set.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h:
-
-/usr/include/c++/11/ext/concurrence.h:
-
-/usr/include/boost/type_traits/is_same.hpp:
-
-/usr/include/boost/mpl/aux_/config/lambda.hpp:
-
-/usr/include/c++/11/pstl/pstl_config.h:
-
-/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp:
-
-/usr/include/c++/11/cmath:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
-
-/opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/boost/mpl/bool.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/c++/11/bits/std_function.h:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
-
-/usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
-
-/usr/include/c++/11/bits/quoted_string.h:
-
-/opt/ros/humble/include/rcl/rcl/types.h:
-
-/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h:
-
-/usr/include/eigen3/Eigen/src/SVD/SVDBase.h:
-
-/usr/include/c++/11/bits/stl_pair.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
-
-/usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/eigen3/Eigen/src/Core/Dot.h:
-
-/usr/include/c++/11/bits/unordered_map.h:
-
-/usr/include/boost/type_traits/is_arithmetic.hpp:
-
-/usr/include/boost/mpl/bool_fwd.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
-
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp:
-
-/usr/include/boost/type_traits/is_unsigned.hpp:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/pthread.h:
-
-/opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
-
-/usr/include/boost/random/detail/config.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
-
-/usr/include/c++/11/bits/specfun.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/eigen3/Eigen/src/Core/Assign.h:
-
-/usr/include/eigen3/Eigen/src/Core/Visitor.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
-
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp:
-
-/usr/include/boost/type_traits/is_signed.hpp:
-
-/opt/ros/humble/include/rmw/rmw/qos_string_conversions.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h:
-
-/opt/ros/humble/include/rcl/rcl/publisher.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/c++/11/system_error:
-
-/usr/include/eigen3/Eigen/src/Geometry/Umeyama.h:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
 /usr/include/c++/11/unordered_set:
 
 /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
@@ -2328,10 +2214,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/c++/11/bits/node_handle.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
@@ -2340,129 +2222,145 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /opt/ros/humble/include/urdfdom_headers/urdf_model/color.h:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
+/usr/include/wchar.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Umeyama.h:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/c++/11/bits/string_view.tcc:
+
+/usr/include/c++/11/backward/binders.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/11/bits/range_access.h:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp:
+
+/opt/ros/humble/include/rcl/rcl/allocator.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
+
+/usr/include/errno.h:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/eigen3/Eigen/src/StlSupport/details.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/cstring:
+
+/usr/include/c++/11/bits/atomic_futex.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/boost/assert.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/usr/include/unistd.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
+
+/home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__struct.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp:
+
+/usr/include/boost/exception/exception.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp:
+
+/usr/include/c++/11/bits/stl_algobase.h:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp:
 
 /usr/include/c++/11/cwchar:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/usr/include/eigen3/Eigen/src/Core/Fuzzy.h:
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/timex.h:
+/usr/include/boost/mpl/aux_/config/integral.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
+/usr/include/c++/11/bits/align.h:
 
-/opt/ros/humble/include/rcutils/rcutils/qsort.h:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
 
-/opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/opt/ros/humble/include/rmw/rmw/names_and_types.h:
+/usr/include/eigen3/Eigen/src/Core/SolveTriangular.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:
+/usr/include/c++/11/bits/functexcept.h:
 
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp:
+/usr/include/c++/11/vector:
 
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp:
+/opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp:
 
-/usr/include/boost/preprocessor/control/expr_iif.hpp:
+/usr/include/c++/11/bits/cxxabi_forced.h:
 
-/usr/include/eigen3/Eigen/Cholesky:
+/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+/opt/ros/humble/include/rmw/rmw/event.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
-/usr/include/c++/11/bits/postypes.h:
+/usr/include/c++/11/bits/this_thread_sleep.h:
 
-/usr/include/c++/11/bits/string_view.tcc:
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
 
-/usr/include/features.h:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.hpp:
+/opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h:
 
-/usr/include/c++/11/bits/functional_hash.h:
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp:
 
-/usr/include/c++/11/backward/binders.h:
+/opt/ros/humble/include/urdfdom_headers/urdf_model/model.h:
 
-/usr/include/c++/11/tr1/poly_hermite.tcc:
+/usr/include/c++/11/bits/locale_facets.h:
 
-/usr/include/c++/11/bits/memoryfwd.h:
+/opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
 
-/usr/include/c++/11/bits/stl_function.h:
+/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
 
-/usr/include/c++/11/ext/type_traits.h:
+/usr/include/c++/11/iterator:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+/usr/include/boost/config/detail/posix_features.hpp:
 
-/usr/include/c++/11/bits/invoke.h:
+/usr/include/boost/preprocessor/arithmetic/add.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
-
-/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
-
-/usr/include/c++/11/atomic:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/opt/ros/humble/include/rcutils/rcutils/types.h:
-
-/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
-
-/usr/include/c++/11/debug/assertions.h:
-
-/opt/ros/humble/include/tracetools/tracetools/config.h:
-
-/usr/include/c++/11/bits/codecvt.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h:
-
-/usr/include/eigen3/Eigen/SVD:
-
-/opt/ros/humble/include/tracetools/tracetools/utils.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
-
-/usr/include/linux/close_range.h:
-
-/usr/include/c++/11/typeindex:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/DenseBase.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/boost/mpl/aux_/arity.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/eigen3/Eigen/src/Core/Ref.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
-
-/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/c++/11/bits/stl_tree.h:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
@@ -2488,21 +2386,155 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h:
 
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/grasp__traits.hpp:
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types.h:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/opt/ros/humble/include/tracetools/tracetools/config.h:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h:
+
+/usr/include/eigen3/Eigen/SVD:
+
+/opt/ros/humble/include/rcutils/rcutils/allocator.h:
+
+/opt/ros/humble/include/rcl/rcl/init_options.h:
+
+/opt/ros/humble/include/tracetools/tracetools/utils.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
+
+/usr/include/linux/close_range.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/eigen3/Eigen/src/Core/Visitor.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp:
+
+/usr/include/boost/type_traits/is_signed.hpp:
+
+/opt/ros/humble/include/rmw/rmw/qos_string_conversions.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h:
+
+/usr/include/c++/11/tuple:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/c++/11/bits/unique_ptr.h:
+
+/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h:
+
+/usr/include/eigen3/Eigen/src/SVD/SVDBase.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
+
+/opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp:
+
+/usr/include/c++/11/bits/stl_pair.h:
+
+/opt/ros/humble/include/rcl/rcl/types.h:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/boost/preprocessor/detail/is_binary.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/pthread.h:
+
+/usr/include/c++/11/atomic:
+
+/usr/include/c++/11/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/boost/mpl/bool_fwd.hpp:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/opt/ros/humble/include/rcl/rcl/wait.h:
+
+/usr/include/c++/11/bits/predefined_ops.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp:
+
+/opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h:
+
+/opt/ros/humble/include/rmw/rmw/serialized_message.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/c++/11/ext/atomicity.h:
 
 /usr/include/c++/11/bits/stl_iterator.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/grasp__type_support.hpp:
 
-/usr/include/console_bridge_export.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-/usr/include/boost/preprocessor/arithmetic/inc.hpp:
+/usr/include/c++/11/pstl/pstl_config.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp:
+
+/usr/include/c++/11/cmath:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/eigen3/Eigen/src/Core/Ref.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+/usr/include/c++/11/bits/std_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/eigen3/Eigen/src/Core/DenseBase.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/boost/mpl/aux_/arity.hpp:
+
+/usr/include/stdc-predef.h:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:
 
@@ -2520,55 +2552,15 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
 
-/opt/ros/humble/include/rcl/rcl/node_options.h:
-
-/usr/include/features-time64.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
-
 /opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
 
 /usr/include/c++/11/ctime:
 
-/usr/include/c++/11/debug/debug.h:
+/usr/include/c++/11/bits/stl_list.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
 
-/usr/include/boost/random/detail/large_arithmetic.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
-
-/opt/ros/humble/include/rcl/rcl/graph.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
-
-/usr/include/math.h:
-
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/eigen3/Eigen/src/StlSupport/details.h:
-
-/usr/include/c++/11/bits/charconv.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
-
-/usr/include/c++/11/tr1/legendre_function.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
 
 /usr/include/boost/preprocessor/cat.hpp:
 
@@ -2576,47 +2568,31 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp:
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h:
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
-/opt/ros/humble/include/rmw/rmw/serialized_message.h:
+/usr/include/boost/random/detail/ptr_helper.hpp:
 
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/grasp__type_support.hpp:
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
 
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp:
+/usr/include/features.h:
 
-/usr/include/c++/11/bits/stl_algobase.h:
+/usr/include/c++/11/tr1/gamma.tcc:
 
-/usr/include/unistd.h:
+/opt/ros/humble/include/rmw/rmw/message_sequence.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
+/usr/include/boost/integer/integer_log2.hpp:
 
-/usr/include/boost/exception/exception.hpp:
+/usr/include/c++/11/bits/ios_base.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
 
-/usr/include/stdc-predef.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
 
-/usr/include/c++/11/bits/alloc_traits.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp:
-
-/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp:
-
-/opt/ros/humble/include/rcl/rcl/allocator.h:
-
-/usr/include/errno.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
-
-/opt/ros/humble/include/rmw/rmw/event.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
+/usr/include/c++/11/tr1/special_function_util.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
 
@@ -2632,41 +2608,27 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/c++/11/bits/shared_ptr.h:
 
-/usr/include/c++/11/tr1/special_function_util.h:
-
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
+/usr/include/c++/11/debug/debug.h:
 
-/opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp:
+/opt/ros/humble/include/rcl/rcl/node_options.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
 
-/usr/include/c++/11/bits/range_access.h:
+/usr/include/features-time64.h:
 
-/usr/include/c++/11/bits/unique_ptr.h:
+/opt/ros/humble/include/rcl/rcl/publisher.h:
 
-/usr/include/boost/preprocessor/detail/is_binary.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
-/usr/include/c++/11/bits/stl_relops.h:
+/usr/include/c++/11/system_error:
 
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/SolveTriangular.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/opt/ros/humble/include/rcl/rcl/init_options.h:
-
-/opt/ros/humble/include/rcutils/rcutils/allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
-
-/usr/include/boost/random/detail/ptr_helper.hpp:
+/usr/include/boost/random/detail/large_arithmetic.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -2680,65 +2642,169 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
+/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:
 
-/usr/include/c++/11/cstring:
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
-/usr/include/c++/11/bits/atomic_futex.h:
+/usr/include/c++/11/streambuf:
 
-/usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
 
-/usr/include/c++/11/backward/auto_ptr.h:
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h:
 
-/usr/include/boost/assert.hpp:
+/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:
 
-/usr/include/c++/11/bits/stl_tempbuf.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
-/usr/include/x86_64-linux-gnu/bits/sched.h:
+/usr/include/linux/errno.h:
 
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__type_support.hpp:
+/usr/include/c++/11/ext/type_traits.h:
 
-/usr/include/c++/11/ext/alloc_traits.h:
+/usr/include/sched.h:
 
-/opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
-/usr/include/c++/11/bits/cxxabi_forced.h:
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp:
 
-/usr/include/c++/11/iterator:
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
-/usr/include/boost/config/detail/posix_features.hpp:
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
-/usr/include/boost/preprocessor/arithmetic/add.hpp:
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
+/usr/include/c++/11/chrono:
 
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
+/usr/include/c++/11/bits/quoted_string.h:
 
-/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp:
+/usr/include/math.h:
 
-/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
-/opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h:
+/opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
 
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp:
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
 
-/opt/ros/humble/include/urdfdom_headers/urdf_model/model.h:
+/usr/include/c++/11/bits/algorithmfwd.h:
 
-/usr/include/c++/11/bits/locale_facets.h:
+/usr/include/c++/11/bits/basic_string.tcc:
 
-/opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
+/opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h:
 
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
 
-/usr/include/c++/11/bits/exception.h:
+/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
 
-/usr/include/c++/11/bits/stl_uninitialized.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
+
+/opt/ros/humble/include/moveit_kinematics_base_export.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/MKL_support.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/11/bits/streambuf_iterator.h:
+
+/opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/execute_trajectory.hpp:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/strings.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/boost/mpl/aux_/config/preprocessor.hpp:
+
+/usr/include/boost/mpl/aux_/config/workaround.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
+
+/usr/include/c++/11/bits/unique_lock.h:
+
+/usr/include/c++/11/pstl/glue_memory_defs.h:
+
+/usr/include/c++/11/csignal:
+
+/usr/include/eigen3/Eigen/src/Core/SolverBase.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.hpp:
+
+/usr/include/c++/11/bits/functional_hash.h:
+
+/opt/ros/humble/include/rcutils/rcutils/qsort.h:
+
+/opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
+
+/opt/ros/humble/include/rmw/rmw/names_and_types.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp:
+
+/usr/include/boost/preprocessor/control/expr_iif.hpp:
+
+/usr/include/eigen3/Eigen/Cholesky:
+
+/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/Fuzzy.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
+
+/usr/include/c++/11/bits/specfun.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/eigen3/Eigen/src/Core/Assign.h:
+
+/opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
+
+/usr/include/boost/random/detail/config.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/grasp__traits.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/11/bits/basic_string.h:
+
+/usr/include/boost/type_traits/is_unsigned.hpp:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/c++/11/typeinfo:
 
@@ -2746,31 +2812,99 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h:
 
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
+/opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
+/usr/include/c++/11/bits/ptr_traits.h:
 
-/usr/include/boost/mpl/aux_/config/integral.hpp:
+/usr/include/stdint.h:
 
-/usr/include/c++/11/bits/align.h:
+/usr/include/c++/11/bits/erase_if.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
+/usr/include/c++/11/bits/stream_iterator.h:
 
-/usr/include/c++/11/vector:
+/usr/include/c++/11/bits/cpp_type_traits.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp:
 
-/opt/ros/humble/include/rcl/rcl/wait.h:
+/opt/ros/humble/include/urdf/urdf/visibility_control.hpp:
 
-/usr/include/c++/11/bits/predefined_ops.h:
+/usr/include/c++/11/ext/concurrence.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/boost/type_traits/is_same.hpp:
+
+/usr/include/boost/mpl/aux_/config/lambda.hpp:
+
+/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__type_support.hpp:
+
+/usr/include/c++/11/ext/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
+/usr/include/boost/type_traits/is_arithmetic.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/eigen3/Eigen/src/Core/Dot.h:
+
+/usr/include/c++/11/typeindex:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
+
+/usr/include/time.h:
+
+/opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/boost/mpl/bool.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+/usr/include/c++/11/bits/invoke.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
+
+/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp:
+
+/usr/include/c++/11/exception:
+
+/usr/include/c++/11/bits/stl_set.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
+
+/opt/ros/humble/include/rcl/rcl/graph.h:
 
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h:
 
@@ -2785,134 +2919,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 /usr/include/c++/11/bits/parse_numbers.h:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/11/bits/stl_list.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
-
-/usr/include/c++/11/pstl/glue_memory_defs.h:
-
-/usr/include/c++/11/csignal:
-
-/usr/include/eigen3/Eigen/src/Core/SolverBase.h:
-
-/usr/include/c++/11/tr1/gamma.tcc:
-
-/opt/ros/humble/include/rmw/rmw/message_sequence.h:
-
-/usr/include/boost/integer/integer_log2.hpp:
-
-/usr/include/c++/11/bits/ios_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
-
-/usr/include/c++/11/streambuf:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h:
-
-/opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/sched.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/c++/11/bits/stream_iterator.h:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp:
-
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp:
-
-/opt/ros/humble/include/urdf/urdf/visibility_control.hpp:
-
-/usr/include/stdint.h:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-/opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
-
-/usr/include/c++/11/bits/algorithmfwd.h:
-
-/usr/include/c++/11/bits/basic_string.tcc:
-
-/opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
-
-/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:
-
-/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/execute_trajectory.hpp:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/strings.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/boost/mpl/aux_/config/preprocessor.hpp:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/opt/ros/humble/include/moveit_kinematics_base_export.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/MKL_support.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/boost/mpl/aux_/config/workaround.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
-
-/usr/include/c++/11/bits/unique_lock.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp:
-
-/usr/include/c++/11/chrono:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -3038,11 +3044,9 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h:
 
-/usr/include/eigen3/Eigen/src/LU/PartialPivLU.h:
+/usr/include/c++/11/cstdlib:
 
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/usr/include/c++/11/cstdlib:
 
 /usr/include/c++/11/string_view:
 
@@ -3064,6 +3068,10 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
 
+/usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
+
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
 
 /usr/include/boost/random/detail/generator_bits.hpp:
@@ -3081,14 +3089,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h:
 
 /usr/include/boost/preprocessor/repeat.hpp:
-
-/home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/arduinobot_task.hpp:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/c++/11/bits/stl_multiset.h:
 
 /usr/include/c++/11/bits/hashtable.h:
 
@@ -3132,9 +3132,9 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /opt/ros/humble/include/tf2/tf2/convert.hpp:
 
@@ -3151,8 +3151,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
 
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
-
-/usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
 
 /usr/include/c++/11/bits/atomic_base.h:
 
@@ -3184,9 +3182,9 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
 
-/usr/include/c++/11/set:
-
 /usr/include/eigen3/Eigen/StdVector:
+
+/usr/include/c++/11/set:
 
 /usr/include/boost/preprocessor/identity.hpp:
 
@@ -3294,8 +3292,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
 
-/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:
 
 /usr/include/c++/11/thread:
@@ -3380,12 +3376,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
 
-/usr/include/eigen3/Eigen/src/SVD/BDCSVD.h:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h:
-
-/opt/ros/humble/include/moveit/robot_model/link_model.h:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
 
 /usr/include/boost/config.hpp:
@@ -3418,6 +3408,14 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
 
+/usr/include/eigen3/Eigen/src/LU/Determinant.h:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
+
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/limits.h:
@@ -3438,9 +3436,9 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
-
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
 /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:
 
@@ -3534,14 +3532,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/linux/limits.h:
 
-/opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp:
-
-/opt/ros/humble/include/rcl/rcl/error_handling.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:
-
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp:
@@ -3557,6 +3547,76 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 /opt/ros/humble/include/rcl_action/rcl_action/action_server.h:
 
 /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:
+
+/usr/include/c++/11/cstddef:
+
+/usr/include/boost/preprocessor/arithmetic/inc.hpp:
+
+/usr/include/console_bridge_export.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
+
+/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+
+/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:
+
+/usr/include/boost/mpl/aux_/na_spec.hpp:
+
+/opt/ros/humble/include/class_loader/class_loader/exceptions.hpp:
+
+/usr/include/boost/config/detail/select_platform_config.hpp:
+
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:
+
+/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
+
+/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/arduinobot_task.hpp:
+
+/opt/ros/humble/include/urdf/urdf/model.h:
+
+/opt/ros/humble/include/rcl/rcl/error_handling.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp:
+
+/usr/include/boost/type_traits/is_floating_point.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp:
+
+/usr/include/boost/random/normal_distribution.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp:
+
+/home/nicholas/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__traits.hpp:
 
 /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:
 
@@ -3574,8 +3634,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
 
-/opt/ros/humble/include/urdf/urdf/model.h:
-
 /opt/ros/humble/include/rmw/rmw/impl/config.h:
 
 /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h:
@@ -3592,14 +3650,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /opt/ros/humble/include/srdfdom/srdfdom/visibility_control.h:
 
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
-
-/usr/include/eigen3/Eigen/src/LU/Determinant.h:
-
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp:
 
 /opt/ros/humble/include/moveit/robot_model/joint_model.h:
@@ -3612,8 +3662,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/boost/config/compiler/gcc.hpp:
 
-/usr/include/c++/11/cstddef:
-
 /usr/include/boost/config/detail/select_stdlib_config.hpp:
 
 /usr/include/c++/11/version:
@@ -3623,8 +3671,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/boost/config/stdlib/libstdcpp3.hpp:
-
-/usr/include/boost/config/detail/select_platform_config.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp:
 
@@ -3678,8 +3724,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
 
-/usr/include/boost/type_traits/is_floating_point.hpp:
-
 /usr/include/boost/mpl/aux_/config/adl.hpp:
 
 /usr/include/boost/mpl/aux_/config/intel.hpp:
@@ -3689,6 +3733,10 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 /usr/include/boost/config/workaround.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessor/enum.hpp:
+
+/usr/include/eigen3/Eigen/src/Geometry/Translation.h:
+
+/usr/include/boost/mpl/aux_/config/gcc.hpp:
 
 /usr/include/boost/mpl/integral_c_tag.hpp:
 
@@ -3745,10 +3793,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 /usr/include/boost/mpl/aux_/static_cast.hpp:
 
 /usr/include/boost/mpl/aux_/config/eti.hpp:
-
-/usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h:
-
-/usr/include/boost/mpl/aux_/na_spec.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp:
 
@@ -3816,8 +3860,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/boost/preprocessor/detail/check.hpp:
 
-/usr/include/eigen3/Eigen/src/Geometry/Scaling.h:
-
 /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp:
@@ -3878,8 +3920,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/boost/random/detail/generator_seed_seq.hpp:
 
-/usr/include/boost/random/normal_distribution.hpp:
-
 /usr/include/eigen3/Eigen/Geometry:
 
 /usr/include/eigen3/Eigen/Core:
@@ -3931,18 +3971,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
-
-/usr/include/eigen3/Eigen/src/LU/FullPivLU.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
-
-/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
 
 /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
 
@@ -4054,10 +4082,6 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
 
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
-
-/usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
-
 /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
@@ -4070,9 +4094,9 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 
 /usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
 
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
-
 /opt/ros/humble/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
@@ -4099,27 +4123,3 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: /home/nicholas/arduinobot_ws/s
 /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
 
 /usr/include/eigen3/Eigen/src/Householder/Householder.h:
-
-/usr/include/c++/11/bits/locale_facets_nonio.tcc:
-
-/usr/include/eigen3/Eigen/LU:
-
-/usr/include/eigen3/Eigen/src/misc/Kernel.h:
-
-/usr/include/eigen3/Eigen/src/misc/Image.h:
-
-/usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h:
-
-/usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
-
-/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
-
-/usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h:
-
-/usr/include/boost/mpl/aux_/config/gcc.hpp:
-
-/usr/include/eigen3/Eigen/src/Geometry/Translation.h:
-
-/usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
